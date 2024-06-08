@@ -3,7 +3,7 @@ import Post from "@/components/Post";
 
 export async function getPosts() {
   try {
-    const res = await fetch("http://localhost:3000/api/posts");
+    const res = await fetch(`${process.env.API_URL}/api/posts`);
     const data = await res.json();
     return data.data;
   } catch (error) {

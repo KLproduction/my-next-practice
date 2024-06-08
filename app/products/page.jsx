@@ -4,7 +4,7 @@ import React from "react";
 
 async function getProuctions() {
   const res = await fetch(
-    "http://localhost:3000/api/posts/"
+    `${process.env.API_URL}/api/products`
   );
   const data = await res.json();
   return data.products;
