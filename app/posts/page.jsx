@@ -20,7 +20,7 @@ const Posts = async () => {
       {
         posts.map((post)=>{
           return(
-            <div className=" my-5 border-red-500 border flex flex-col gap-3">
+            <div className=" my-5 border-red-500 border flex flex-col gap-3" key={post.id}>
             <Post id={post.id} title={post.title} body={post.body}/>
           </div>
           )
