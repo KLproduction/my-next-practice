@@ -10,6 +10,10 @@ export default function Home() {
       <h1>brach test</h1>
       <GeneratePost />
       <p>T2</p>
+      <p>T3</p>
+
+    
+
     </main>
   );
 }
