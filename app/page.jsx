@@ -6,8 +6,9 @@ import GeneratePost from "@/components/GeneratePost";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <GeneratePost/>
+    <main className="flex h-screen flex-col items-center justify-center">
+      <h1>brach test</h1>
+      <GeneratePost />
     </main>
   );
 }
