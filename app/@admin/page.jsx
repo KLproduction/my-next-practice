@@ -5,6 +5,7 @@ const AdminPage = () => {
     <div>
       <div>AdminPage</div>
       <p>This is Admin page</p>
+      <p>Brach test</p>
       <div className=" border-red-600 border w-[500px] h-[500px]  bg-zinc-800"></div>
     </div>
   );
