@@ -9,6 +9,7 @@ export default function Home() {
     <main className="flex h-screen flex-col items-center justify-center">
       <h1>brach test</h1>
       <GeneratePost />
+      <p>T2</p>
     </main>
   );
 }
